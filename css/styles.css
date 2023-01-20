@@ -1,0 +1,60 @@
+body {
+    background-image: url("../images/house-of-the-dragon-bg.jpeg");
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#filterBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.submit {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#frameContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". . ."
+    ". . .";
+}
+
+.card {
+    text-align: center;
+    width: 300px;
+    height: 360px;
+    border: 2px solid black;
+    background: whitesmoke;
+    padding: 15px 10px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    position: center;
+    margin: 0px 25px;
+}
+
+.bio, .status {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 10px 40px
+}
+
+p {
+    display: none
+}
+
+
+  
